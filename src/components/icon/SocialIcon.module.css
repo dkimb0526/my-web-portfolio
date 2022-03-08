@@ -1,0 +1,11 @@
+.center {
+  justify-content: center;
+  display: flex;
+  width: auto;
+  position: relative;
+  top: 20px;
+}
+
+.hover:hover {
+  color: #ffffff;
+}

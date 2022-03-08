@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import classes from "./components/modules/textStyling.module.css";
+//import Background from "./components/background/background";
+import React from "react";
+import Layout from "./components/layouts/Layouts";
+import { Route, Routes } from "react-router-dom";
+import Overview from "./components/pages/Overview";
+//import Aboutme from "./components/pages/Aboutme";
+import ChatbotApril from "./components/pages/ChatbotApril";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Overview />} />
+        <Route path="/chatbot-april" element={<ChatbotApril />} />
+      </Routes>
+    </Layout>
   );
 }
 

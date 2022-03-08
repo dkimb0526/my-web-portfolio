@@ -1,0 +1,16 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.introduction {
+  color: #ffffff;
+  font-family: "Major Mono Display", monospace;
+  background-color: rgba(50, 54, 57, 0.8);
+  border-radius: 90px / 100px;
+  width: 65%;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}

@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  box-shadow: 0 0 2px 10px rgba(236, 150, 136, 1);
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ec9688;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 90px / 100px;
+  font-family: "Major Mono Display", monospace;
+}
