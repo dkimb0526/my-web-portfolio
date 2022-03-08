@@ -12,7 +12,7 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Overview</Link>
+            <Link to="/my-web-portfolio">Overview</Link>
           </li>
           <li>
             <Link to="/chatbot-april">Chatbot April</Link>

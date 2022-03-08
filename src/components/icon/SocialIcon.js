@@ -9,7 +9,7 @@ function SocialIcons() {
         target="_blank"
         bgColor="#ec9688"
         fgColor="#ffffff"
-        style={{ height: 35, width: 35 }}
+        style={{ height: 70, width: 70 }}
       />
       &nbsp; &nbsp;
       <SocialIcon
@@ -17,7 +17,7 @@ function SocialIcons() {
         target="_blank"
         bgColor="#ec9688"
         fgColor="#ffffff"
-        style={{ height: 35, width: 35 }}
+        style={{ height: 70, width: 70 }}
       />
     </div>
   );

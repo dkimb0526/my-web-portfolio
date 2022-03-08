@@ -11,7 +11,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Overview />} />
+        <Route exact path="/my-web-portfolio" element={<Overview />} />
         <Route path="/chatbot-april" element={<ChatbotApril />} />
       </Routes>
     </Layout>
