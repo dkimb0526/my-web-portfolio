@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-web-portfolio/static/css/main.da0c1e0a.css",
-    "main.js": "/my-web-portfolio/static/js/main.594fedca.js",
-    "static/js/787.4beda41b.chunk.js": "/my-web-portfolio/static/js/787.4beda41b.chunk.js",
-    "static/media/Presidential.PNG": "/my-web-portfolio/static/media/Presidential.fcded9c6dc5390332877.PNG",
-    "index.html": "/my-web-portfolio/index.html",
-    "main.da0c1e0a.css.map": "/my-web-portfolio/static/css/main.da0c1e0a.css.map",
-    "main.594fedca.js.map": "/my-web-portfolio/static/js/main.594fedca.js.map",
-    "787.4beda41b.chunk.js.map": "/my-web-portfolio/static/js/787.4beda41b.chunk.js.map"
+    "main.css": "/static/css/main.da0c1e0a.css",
+    "main.js": "/static/js/main.d5641032.js",
+    "static/js/787.4beda41b.chunk.js": "/static/js/787.4beda41b.chunk.js",
+    "static/media/Presidential.PNG": "/static/media/Presidential.fcded9c6dc5390332877.PNG",
+    "index.html": "/index.html",
+    "main.da0c1e0a.css.map": "/static/css/main.da0c1e0a.css.map",
+    "main.d5641032.js.map": "/static/js/main.d5641032.js.map",
+    "787.4beda41b.chunk.js.map": "/static/js/787.4beda41b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da0c1e0a.css",
-    "static/js/main.594fedca.js"
+    "static/js/main.d5641032.js"
   ]
 }
