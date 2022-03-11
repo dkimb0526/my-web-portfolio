@@ -1,59 +1,39 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  padding: 0 10%;
+  justify-content: center;
   opacity: 100%;
-  height: 7.5rem;
+  height: 15rem;
   width: auto;
   align-items: center;
 }
 
-.logo {
-  font-size: 2.5rem;
-  color: #ffffff;
-  display: inline-block;
-  font-weight: bold;
-  background-color: rgba(50, 54, 57, 0.8);
-  width: 9em;
-  border-radius: 90px / 100px;
-  text-align: center;
+.topbuffer {
+  margin-top: 20px;
 }
 
-.header ul {
-  align-items: center;
-  display: flex;
-  width: auto;
-  height: 8rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-family: "Major Mono Display", monospace;
-}
-
-.header li {
-  margin-left: 4rem;
+.bg {
   background-color: rgba(50, 54, 57, 0.8);
-  border-radius: 90px / 100px;
-  width: 12rem;
+  border-radius: 25px;
   text-align: center;
+  padding: 9px;
+  margin-top: 3px;
 }
 
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #ffffff;
+  font-family: "Major Mono Display", monospace;
+}
+.header span {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "Major Mono Display", monospace;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
   color: #00a8e8;
-}
-
-.badge {
-  background-color: #cc2062;
-  color: #ffffff;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
 }

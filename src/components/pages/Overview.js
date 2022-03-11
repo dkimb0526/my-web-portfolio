@@ -3,6 +3,9 @@ import Imclasses from "../images/PresidentialSelfie.module.css";
 import Ovclasses from "../modules/Overview.module.css";
 import Background from "../background/background";
 import SocialIcons from "../icon/SocialIcon";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 
 function Overview() {
   return (
@@ -15,13 +18,17 @@ function Overview() {
         </div>
       </div>
       <div>
-        <div className={Ovclasses.container}>
-          <div className={Ovclasses.introduction}>
-            Hello, I am David and welcome to my website. I'm a Business
-            Analytics Major with 2 years of experience. I also have a passion in
-            programming and software development.
-          </div>
-        </div>
+        <Container>
+          <Row className="justify-content-md-center">
+            <Col md="auto">
+              <div className={Ovclasses.introtext}>
+                Hello, I am David and welcome to my website. I'm a Business
+                Analytics Major with 2 years of experience. I also have a
+                passion in programming and software development.
+              </div>
+            </Col>
+          </Row>
+        </Container>
         <SocialIcons />
       </div>
     </div>
