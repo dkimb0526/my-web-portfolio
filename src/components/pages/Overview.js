@@ -2,19 +2,24 @@ import selfie from "../images/Presidential.PNG";
 import Imclasses from "../images/PresidentialSelfie.module.css";
 import Ovclasses from "../modules/Overview.module.css";
 import Background from "../background/background";
-import SocialIcons from "../icon/SocialIcon";
+//import SocialIcons from "../icon/SocialIcon";
+import FontAwesome from "../icon/FontAwesome";
+
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Overview() {
   return (
     <div>
       <Background />
-      <div className={Imclasses.container}>
-        <img className={Imclasses.image} src={selfie} alt="David Kimball" />
-        <div className={Imclasses.middle}>
-          <div className={Imclasses.text}>Nice to meet you!</div>
+      <div class="container-xxl">
+        <div className={Imclasses.container}>
+          <img className={Imclasses.image} src={selfie} alt="David Kimball" />
+          <div className={Imclasses.middle}>
+            <div className={Imclasses.text}>Nice to meet you!</div>
+          </div>
         </div>
       </div>
       <div>
@@ -29,7 +34,9 @@ function Overview() {
             </Col>
           </Row>
         </Container>
-        <SocialIcons />
+        <div>
+          <FontAwesome />
+        </div>
       </div>
     </div>
   );

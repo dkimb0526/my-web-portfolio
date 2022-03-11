@@ -1,9 +1,3 @@
-.container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .introtext {
   font-size: 1.5rem;
   color: #ffffff;
@@ -11,4 +5,5 @@
   font-family: "Major Mono Display", monospace;
   background-color: rgba(50, 54, 57, 0.8);
   border-radius: 25px;
+  margin-top: 1rem;
 }

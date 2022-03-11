@@ -6,6 +6,11 @@
   top: 30px;
 }
 
-.hover:hover {
+.icons {
+  color: #ec9688;
+  transition: 0.5s;
+}
+
+.icons:hover {
   color: #ffffff;
 }

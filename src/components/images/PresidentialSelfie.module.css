@@ -1,8 +1,9 @@
 .container {
   position: relative;
-  width: 30%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
 }
 
 .image {
@@ -38,6 +39,6 @@
   font-size: 13px;
   font-weight: bold;
   padding: 16px 32px;
-  border-radius: 90px / 100px;
+  border-radius: 25px;
   font-family: "Major Mono Display", monospace;
 }
