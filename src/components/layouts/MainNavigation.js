@@ -12,7 +12,7 @@ function MainNavigation() {
   return (
     <div className={classes.header}>
       <Container className={classes.topbuffer}>
-        <Row className="justify-content-md-center">
+        <Row className="d-flex justify-content-around">
           <Col md="auto">
             <div className={classes.bg}>
               <Link to="/my-web-portfolio">Overview</Link>

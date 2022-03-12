@@ -1,0 +1,22 @@
+.word {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+}
+
+.height {
+  height: 50rem;
+}
+
+.box {
+  transition: all 1s ease-out;
+}
+
+.box:hover,
+.box:focus {
+  background-color: rgba(50, 54, 57, 0.8);
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 2%;
+}

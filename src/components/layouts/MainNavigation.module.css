@@ -7,16 +7,16 @@
   align-items: center;
 }
 
-.topbuffer {
-  margin-top: 20px;
-}
-
 .bg {
   background-color: rgba(50, 54, 57, 0.8);
   border-radius: 25px;
   text-align: center;
   padding: 9px;
-  margin-top: 3px;
+  margin-top: 15px;
+}
+
+.topbuffer {
+  margin-top: 0px;
 }
 
 .header a {
