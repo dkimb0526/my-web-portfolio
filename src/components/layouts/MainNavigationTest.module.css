@@ -44,11 +44,3 @@
 .header a.active {
   color: #00a8e8;
 }
-
-.badge {
-  background-color: #cc2062;
-  color: #ffffff;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
-}
