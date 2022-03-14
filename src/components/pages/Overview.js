@@ -1,13 +1,17 @@
 import Background from "../background/background";
-import OverviewResume from "./pagelayout/OverviewResume";
-import OverviewIntro from "./pagelayout/OverviewIntro";
+import ResumeOverview from "./pagelayout/ResumeOverview";
+import IntroOverview from "./pagelayout/IntroOverview";
+import ProjectOverview from "./pagelayout/ProjectOverview";
+import PdfOverview from "../pdf/PdfOverview";
 
 function Overview() {
   return (
     <div>
       <Background />
-      <OverviewIntro />
-      <OverviewResume />
+      <IntroOverview />
+      <ResumeOverview />
+      <ProjectOverview />
+      <PdfOverview />
     </div>
   );
 }

@@ -1,0 +1,55 @@
+.height {
+  height: auto;
+  padding-top: 50px;
+}
+
+.col {
+  margin: 10px;
+  background-color: rgba(50, 54, 57, 0.8);
+  background-clip: content-box;
+  border-radius: 25px;
+  transition: 0.5s;
+  position: relative;
+  top: 0;
+}
+
+.col:hover {
+  top: -10px;
+}
+.title {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Major Mono Display", monospace;
+}
+
+.softwares {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgba(32, 33, 36, 0.8);
+  background-clip: content-box;
+  border-radius: 25px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.text {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.github {
+  color: #ec9688;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.icons {
+  color: #ec9688;
+  transition: 0.5s;
+  margin: 10px;
+}

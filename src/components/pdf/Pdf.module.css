@@ -1,0 +1,55 @@
+.section {
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(50, 54, 57, 0.8);
+  transition: 0.5s;
+  position: relative;
+  top: 0;
+  border-radius: 5px;
+}
+
+.text {
+  color: #ec9688;
+  font-size: 25px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.button:hover {
+  top: -10px;
+  background-color: #ec9688;
+}
+
+.text:hover,
+.text:active {
+  font-weight: bolder;
+  color: #fff;
+}
+
+.design_text {
+  color: #ec9688;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Major Mono Display", monospace;
+}
+
+.row_section {
+  margin-top: 50px;
+  height: 200px;
+}
+
+.bg {
+  background-color: rgba(50, 54, 57, 0.8);
+  border-radius: 5px;
+}
+
+.jasonlink {
+  color: #ec9688;
+}
+
+.jasonlink:hover {
+  color: #fff;
+}

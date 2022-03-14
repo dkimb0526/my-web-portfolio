@@ -20,12 +20,12 @@ function ovResume() {
                 <Container>
                   <Row className="justify-content-md-center">
                     <Col md="auto" className={Resuclasses.box}>
-                      <Row>
+                      <Row className={Resuclasses.top_padding}>
                         <FaProLangIcon />
                       </Row>
                       <br />
                       <Row>
-                        <p className="text-center">Programming Languages</p>
+                        <p className="text-center">Programming Language:</p>
                       </Row>
                       <Row>
                         <p className="text-center">Python</p>
@@ -55,7 +55,7 @@ function ovResume() {
             </Col>
             <Col className={Resuclasses.box}>
               <div className={Resuclasses.word}>
-                <Row>
+                <Row className={Resuclasses.top_padding}>
                   <FaExperienceIcon />
                 </Row>
                 <br />
@@ -63,7 +63,7 @@ function ovResume() {
                   <Row className="justify-content-md-center">
                     <Col md="auto">
                       <Row>
-                        <Col>Experience</Col>
+                        <Col>Experience:</Col>
                       </Row>
                       <Row>
                         <WorkExperience />
@@ -78,12 +78,12 @@ function ovResume() {
                 <Container>
                   <Row className="justify-content-md-center">
                     <Col md="auto" className={Resuclasses.box}>
-                      <Row>
+                      <Row className={Resuclasses.top_padding}>
                         <FaSoftwareIcon />
                       </Row>
                       <br />
                       <Row>
-                        <p className="text-center">Software</p>
+                        <p className="text-center">Software:</p>
                       </Row>
                       <Row>
                         <p className="text-center">Bootstrap</p>
