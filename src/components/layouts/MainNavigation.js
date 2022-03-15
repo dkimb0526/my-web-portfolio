@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import classes from "./MainNavigation.module.css";
-import TextAnimation from "./TextAnimation";
+//import TextAnimation from "./TextAnimation";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
@@ -24,15 +24,6 @@ function MainNavigation() {
             </div>
           </Col>
         </Row>
-        <div className={classes.topbuffer}>
-          <Row className="justify-content-md-center">
-            <Col md="auto">
-              <div className={classes.bg}>
-                <TextAnimation />
-              </div>
-            </Col>
-          </Row>
-        </div>
       </Container>
     </div>
   );

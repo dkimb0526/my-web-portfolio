@@ -13,7 +13,7 @@
 }
 
 .text {
-  color: #ec9688;
+  color: #fff;
   font-size: 25px;
   font-family: "Major Mono Display", monospace;
 }
@@ -34,6 +34,7 @@
   font-size: 25px;
   font-weight: bolder;
   font-family: "Major Mono Display", monospace;
+  text-align: center;
 }
 
 .row_section {
@@ -51,5 +52,9 @@
 }
 
 .jasonlink:hover {
+  color: #fff;
+}
+
+.icon {
   color: #fff;
 }

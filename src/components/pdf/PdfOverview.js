@@ -3,12 +3,15 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import classes from "./Pdf.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 
 function PdfOverview() {
   return (
     <section className={classes.section}>
       <Container>
         <Row className="justify-content-md-center">
+          <Col md="auto"></Col>
           <Col md="auto" className={classes.button}>
             <Link
               to="Resume.pdf"
@@ -16,6 +19,11 @@ function PdfOverview() {
               download
               className={classes.text}
             >
+              <FontAwesomeIcon
+                icon={faFileDownload}
+                size="1x"
+                className={classes.icon}
+              />
               Resume
             </Link>
           </Col>
