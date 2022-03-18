@@ -41,8 +41,8 @@ const particlesConfig = {
         type: "circle",
       },
       onHover: {
-        enable: false,
-        mode: "bubble",
+        enable: true,
+        mode: "trail",
         parallax: {
           enable: false,
           force: 60,
@@ -64,7 +64,7 @@ const particlesConfig = {
         distance: 200,
       },
       bubble: {
-        distance: 400,
+        distance: 100,
         duration: 2,
         mix: false,
         opacity: 0.8,
@@ -113,10 +113,10 @@ const particlesConfig = {
         quantity: 2,
       },
       repulse: {
-        distance: 200,
+        distance: 50,
         duration: 0.4,
         factor: 100,
-        speed: 1,
+        speed: 0.5,
         maxSpeed: 50,
         easing: "ease-out-quad",
       },
@@ -125,8 +125,8 @@ const particlesConfig = {
         radius: 200,
       },
       trail: {
-        delay: 1,
-        pauseOnStop: false,
+        delay: 0.1,
+        pauseOnStop: true,
         quantity: 1,
       },
     },
@@ -160,20 +160,20 @@ const particlesConfig = {
       bounce: {
         horizontal: {
           random: {
-            enable: false,
+            enable: true,
             minimumValue: 0.1,
           },
           value: 1,
         },
         vertical: {
           random: {
-            enable: false,
+            enable: true,
             minimumValue: 0.1,
           },
           value: 1,
         },
       },
-      enable: false,
+      enable: true,
       mode: "bounce",
       overlap: {
         enable: true,
@@ -342,7 +342,7 @@ const particlesConfig = {
         area: 800,
         factor: 1000,
       },
-      limit: 0,
+      limit: 200,
       value: 80,
     },
     opacity: {

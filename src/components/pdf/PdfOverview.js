@@ -11,7 +11,6 @@ function PdfOverview() {
     <section className={classes.section}>
       <Container>
         <Row className="justify-content-md-center">
-          <Col md="auto"></Col>
           <Col md="auto" className={classes.button}>
             <Link
               to="Resume.pdf"
