@@ -20,7 +20,7 @@ function MainNavigation() {
           </Col>
           <Col md="auto">
             <div className={classes.bg}>
-              <Link to="/chatbot-april">Chatbot April</Link>
+              <Link to="/chatbot">Chatbot</Link>
             </div>
           </Col>
         </Row>
@@ -30,3 +30,5 @@ function MainNavigation() {
 }
 
 export default MainNavigation;
+
+/*Main Navi is used in Layouts.js */

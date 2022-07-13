@@ -9,5 +9,11 @@
 }
 
 .height {
-  height: 51.5rem;
+  position: relative;
+  top: 20px;
+}
+
+.parallax {
+  z-index: -1;
+  position: absolute;
 }

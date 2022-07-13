@@ -16,7 +16,7 @@ const WorkExpData = [
     },
   },
   {
-    text: "President of Analytics Club @ Montclair State",
+    text: "President of Analytics Club @Montclair State",
     date: "Sep 2018 - May 2019:",
     category: {
       tag: "",
@@ -24,7 +24,7 @@ const WorkExpData = [
     },
   },
   {
-    text: "Sales Analyst Intern @ Nestle NA",
+    text: "Sales Analyst Intern @Nestle NA",
     date: "June 2018 - Aug 2018:",
     category: {
       tag: "",

@@ -1,14 +1,18 @@
-import Background from "../background/background";
+//import ParallaxBackground from "../background/ParallaxBackground";
 import ResumeOverview from "./pagelayout/ResumeOverview";
 import IntroOverview from "./pagelayout/IntroOverview";
 import ProjectOverview from "./pagelayout/ProjectOverview";
 import PdfOverview from "../pdf/PdfOverview";
+import IntroParallax from "../background/IntroParallax";
+import ResumeParallax from "../background/ResumeParallax";
+import classes from "./OverView.module.css";
 
 function Overview() {
   return (
-    <div>
-      <Background />
+    <div className={classes.BG}>
+      <IntroParallax />
       <IntroOverview />
+      <ResumeParallax />
       <ResumeOverview />
       <ProjectOverview />
       <PdfOverview />
@@ -17,3 +21,5 @@ function Overview() {
 }
 
 export default Overview;
+
+//<div className={classes.outer}> <div className={classes.BG}>

@@ -3,8 +3,9 @@ import Particles from "react-tsparticles";
 import particlesConfig from "./particlesConfig";
 //import particleOption from "./testParticles.json";
 
-function Background() {
+function ParticalBackground() {
   return <Particles params={particlesConfig} />;
 }
 
-export default Background;
+export default ParticalBackground;
+/*used in ChatbotApril.js and Overview.js */

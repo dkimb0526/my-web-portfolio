@@ -1,6 +1,7 @@
 .height {
   height: auto;
-  padding-top: 50px;
+  padding-top: 300px;
+  overflow: visible;
 }
 
 .col {
@@ -52,4 +53,7 @@
   color: #ec9688;
   transition: 0.5s;
   margin: 10px;
+}
+.github:hover {
+  color: #ffffff;
 }

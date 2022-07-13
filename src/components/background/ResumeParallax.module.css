@@ -1,0 +1,11 @@
+.outer {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  height: 750px;
+}
+
+.parallax {
+  position: relative;
+  margin-top: 100px;
+}

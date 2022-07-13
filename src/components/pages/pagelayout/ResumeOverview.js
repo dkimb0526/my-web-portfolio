@@ -9,10 +9,26 @@ import FaSoftwareIcon from "../../icon/FaSoftware";
 import FaExperienceIcon from "../../icon/FaExperience";
 import WorkExperience from "../../layouts/WorkExperience";
 
-function ovResume() {
+import { useEffect, useState } from "react";
+
+function ResumeOverview() {
+  const [offsetX, setOffsetX] = useState(0);
+  const handleScroll = () => setOffsetX(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  //Variable for background
+  var sectionStyle = {
+    transform: `translateY(${offsetX * -0.2}px)`,
+  };
+
   return (
     <section className={Resuclasses.height}>
-      <div>
+      <div className={Resuclasses.parallax} style={sectionStyle}>
         <Container fluid>
           <Row>
             <Col>
@@ -121,4 +137,4 @@ function ovResume() {
   );
 }
 
-export default ovResume;
+export default ResumeOverview;

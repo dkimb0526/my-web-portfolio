@@ -5,16 +5,31 @@ import { Link } from "react-router-dom";
 import classes from "./Pdf.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useState } from "react";
 
 function PdfOverview() {
+  const [offsetX, setOffsetX] = useState(0);
+  const handleScroll = () => setOffsetX(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  //Variable for background
+  var sectionStyle = {
+    transform: `translateY(${offsetX * 0.15}px)`,
+  };
   return (
-    <section className={classes.section}>
+    <section className={classes.section} style={sectionStyle}>
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className={classes.button}>
             <Link
               to="Resume.pdf"
               target="_blank"
+              style={{ textDecoration: "none" }}
               download
               className={classes.text}
             >
@@ -23,7 +38,7 @@ function PdfOverview() {
                 size="1x"
                 className={classes.icon}
               />
-              Resume
+              &nbsp;Resume
             </Link>
           </Col>
         </Row>
@@ -38,14 +53,7 @@ function PdfOverview() {
                 </Row>
                 <Row className="justify-content-md-center">
                   <Col className={classes.design_text} md="auto">
-                    <a
-                      className={classes.jasonlink}
-                      href="https://www.jasonmustafa.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Jason Mustafa
-                    </a>
+                    Jason Mustafa
                   </Col>
                 </Row>
                 <Row className="justify-content-md-center">

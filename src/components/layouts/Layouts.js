@@ -10,3 +10,5 @@ function Layout(props) {
 }
 
 export default Layout;
+
+/* Layout is used in App.js */

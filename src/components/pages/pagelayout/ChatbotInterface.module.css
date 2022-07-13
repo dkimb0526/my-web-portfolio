@@ -41,3 +41,10 @@
   font-size: 1rem;
   font-family: "Major Mono Display", monospace;
 }
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}

@@ -11,6 +11,10 @@
 
 .height {
   height: auto;
+  /*
+  overflow: visible;
+  position: relative;
+  */
 }
 
 .box {
@@ -25,3 +29,16 @@
   font-size: 110%;
   padding: 2%;
 }
+
+.parallax {
+  position: relative;
+  top: 500px;
+}
+
+/*position: absolute; 
+
+
+
+
+
+*/

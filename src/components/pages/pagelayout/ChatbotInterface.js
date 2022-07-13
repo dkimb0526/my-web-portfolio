@@ -3,8 +3,9 @@ import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBots } from "@fortawesome/free-brands-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faBots } from "@fortawesome/free-brands-svg-icons";
+import flower from "../../images/flowrentina.gif";
 
 function ChatbotInterface() {
   const [BotResponse, setBotResponse] = useState("Hello");
@@ -36,17 +37,15 @@ function ChatbotInterface() {
         <Row className="justify-content-md-center">
           <Col md="auto">
             <Row className="justify-content-md-center">
-              <Col md="auto" className={classes.container}>
-                <FontAwesomeIcon
-                  icon={faBots}
-                  size="4x"
-                  className={classes.icon}
-                />
+              <Col>
+                <div>
+                  <img className={classes.gif} src={flower} alt="loading..." />
+                </div>
               </Col>
             </Row>
             <Row className="justify-content-md-center">
               <Col md="auto" className={classes.name}>
-                April:
+                bot:
               </Col>
             </Row>
             <Row>
