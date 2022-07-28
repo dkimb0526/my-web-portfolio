@@ -15,7 +15,7 @@ function MainNavigation() {
         <Row className="d-flex justify-content-around">
           <Col md="auto">
             <div className={classes.bg}>
-              <Link to="/my-web-portfolio">Overview</Link>
+              <Link to="/">Overview</Link>
             </div>
           </Col>
           <Col md="auto">

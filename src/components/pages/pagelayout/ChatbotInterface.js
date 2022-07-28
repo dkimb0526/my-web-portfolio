@@ -24,7 +24,7 @@ function ChatbotInterface() {
   }
   //can also look into addEventListener
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/chatbot/${Request}`)
+    fetch(`https://davechatbot.herokuapp.com/chatbot/${Request}`)
       .then((res) => res.json())
       .then((data) => {
         setBotResponse(data); //set BotResponse values

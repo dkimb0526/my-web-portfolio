@@ -62,7 +62,16 @@ function ResumeOverview() {
                         <p className="text-center">JavaScript</p>
                       </Row>
                       <Row>
-                        <p className="text-center">PowerShell</p>
+                        <p className="text-center">PowerShell/Bash</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">C#</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">Java</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">PHP</p>
                       </Row>
                     </Col>
                   </Row>
@@ -124,6 +133,15 @@ function ResumeOverview() {
                       </Row>
                       <Row>
                         <p className="text-center">NLTK</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">Tensorflow</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">Selenium</p>
+                      </Row>
+                      <Row>
+                        <p className="text-center">Docker</p>
                       </Row>
                     </Col>
                   </Row>

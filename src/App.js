@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route exact path="/my-web-portfolio" element={<Overview />} />
+        <Route exact path="/" element={<Overview />} />
         <Route exact path="/chatbot" element={<Chatbot />} />
       </Routes>
     </Layout>
