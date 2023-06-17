@@ -1,15 +1,15 @@
 const WorkExpData = [
   {
     text: "Personal/Coding Projects @home",
-    date: "Dec 2020 - present:",
+    date: "Present + :",
     category: {
       tag: "",
       color: "",
     },
   },
   {
-    text: "Business Intelligence consultant @SDG Group",
-    date: "Feb 2019 - Nov 2020:",
+    text: "Data Engineer @SDG Group",
+    date: "Feb 2019 - Present:",
     category: {
       tag: "",
       color: "",

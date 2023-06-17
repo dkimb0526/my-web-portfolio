@@ -39,7 +39,7 @@ function OverviewIntro() {
               <Col md="auto">
                 <div className={Introclasses.introtext}>
                   Hi, I am David and welcome to my website. I'm a Business
-                  Analytics Major with 2 years of experience. I also have a
+                  Analytics Major with 4 years of experience. I also have a
                   passion in programming and software development.
                 </div>
               </Col>
